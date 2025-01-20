@@ -26,7 +26,7 @@ jobs:
 
     - name: Push changes
       run: |
-        git push https://${{/ secrets.GH_PAT }}@github.com/tofha118/velog
+        git push https://${{ secrets.GH_PAT }}@github.com/tofha118/velog
 
     - name: Set up Python
       uses: actions/setup-python@v2
